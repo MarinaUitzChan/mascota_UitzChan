@@ -7,9 +7,9 @@ use Illuminate\Database\Eloquent\Model;
 class Propietario extends Model
 {
     //
-    protected $tabel='especies';
+    protected $tabel='propietario';
     //Se especifica la clave primaria
-    protected $primaryKey='id_especie';
+    protected $primaryKey='id_propietario';
 
     public $fillable=[
     	'nombre',
